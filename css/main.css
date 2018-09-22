@@ -284,7 +284,7 @@ main {
     padding-right: 3%;
 }
 
-/* ========== About Page ==========*/
+/* ABOUT PAGE ==================== */
 
 .contact-info {
     width: 100%;
@@ -301,7 +301,70 @@ main {
     vertical-align: top;
 }
 
-/* ========== FAQ Page ==========*/
+.strong {
+    font-weight: 700;
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mission {
+    width: 100%;
+}
+
+.team-member {
+    padding: 15px 0;
+    clear: both;
+}
+
+.team-img {
+    width: 40%;
+    padding-bottom: 40%;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+
+.team-name {
+    margin-bottom: 0;
+}
+
+.team-title {
+    margin-top: 0;
+}
+
+.team-description {
+    display: none;
+}
+
+#team-img-jack {
+    background: url("../img/team-jack.png") center no-repeat;
+    background-size: cover;
+}
+
+#team-img-lana {
+    background: url("../img/team-lana.png") center no-repeat;
+    background-size: cover;
+}
+
+#team-img-willow {
+    background: url("../img/team-willow.png") center no-repeat;
+    background-size: cover;
+}
+
+/* FAQ PAGE ==================== */
 
 .faqs-item {
     border-bottom: 1px solid #cccccc;
@@ -516,13 +579,45 @@ footer{
         float: left;
     }
 
-    .mission {
+    .map-container {
+        position: relative;
+        padding-bottom: 40%;
+        height: 0;
+        overflow: hidden;
+        width: 58%;
+        float: left;
+        border: 1px solid #333;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
+    }
+
+    .mission {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 15px 0;
         clear: both;
     }
 
-    .team-description {
-        display: none;
+    .team {
+        padding-top: 15px;
+    }
+
+    .team-member{
+        padding: 15px 0;
+    }
+
+    .team-img {
+        width: 20%;
+        padding-bottom: 20%;
+        margin-right: 10%;
     }
 
     /* Footer ==================== */
@@ -611,10 +706,18 @@ footer{
 
     /* ABOUT Page ==================== */
 
+    }
+
+    .team-member {
+        padding: 15px 0;
+    }
+
     .team-img {
-        width: 25%;
-        float: left;
-        padding: 0 4% 0% 3%;
+        margin-right: 5%;
+    }
+
+    .team-name {
+        margin-top: 0;
     }
 
     .team-description {
@@ -622,10 +725,6 @@ footer{
     }
 
     /* Footer ==================== */
-
-    footer {
-        width: 100%;
-    }
 
     .footer-logo {
         width: 20%;
