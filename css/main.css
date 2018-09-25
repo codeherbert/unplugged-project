@@ -198,6 +198,10 @@ nav ul li a {
     text-transform: uppercase;
     color: #333;
 }
+
+nav i {
+    padding-right: 10px;
+}
 /* ========== Main Content ========== */
 
 main {
@@ -247,6 +251,10 @@ main {
 
 .sidebar-about-us, .sidebar-faqs {
     display: none;
+}
+
+.sidebar-about-us i, .sidebar-faqs i {
+    padding-right: 10px;
 }
 
 /* ========== Feed Section ==========*/
