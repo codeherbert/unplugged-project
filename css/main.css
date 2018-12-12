@@ -377,6 +377,7 @@ main {
 
 .faqs-item {
     border-bottom: 1px solid #cccccc;
+    padding: 50px 0;
 }
 
 .faqs-item h3 {
@@ -730,8 +731,6 @@ footer{
     }
 
     /* ABOUT Page ==================== */
-
-    }
 
     .team-member {
         padding: 15px 0;
